@@ -1,0 +1,442 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-image: url(https://images.pexels.com/photos/11948096/pexels-photo-11948096.jpeg);
+    background-repeat: no-repeat;
+    filter: blur();
+    background-size: 110%;
+    background-attachment: fixed;  
+}
+
+nav{
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul.view li a{
+    padding-bottom: 10px;
+}
+
+nav ul{
+    margin-top:10px;
+}
+
+.info{
+    float: left;
+    margin-left: 20px;
+}
+
+nav ul li i#ic{
+    margin-top: 14px;
+    padding-top: 4px;
+    margin-bottom: 2px;
+}
+
+
+.info li{
+    font-family: "Bahnschrift SemiBold";
+    display: inline-block;
+    color:white;
+    font-size: 20px;
+
+}
+
+.info li a{
+    font-family: "Bahnschrift SemiBold";
+    color:white;
+    display: block;
+    padding: 20px 25px;
+    padding-right: 1px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.info li a#title{
+    font-size: 20px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.info li a#title:hover{
+    text-decoration: underline;
+    
+}
+
+.info li a:hover{
+    text-decoration: underline;
+}
+
+.info li ul.drop{
+    display: none;
+    background-color: black;
+    position: absolute;
+}
+
+.info li:hover ul.drop{
+    display: block;
+    border-top: none;
+    width: 250px;
+    border:solid;
+    border-width: 4px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.info li:hover ul.drop li div{
+    font-size: 15px;
+    margin: 7px;
+}
+
+.info li:hover ul.drop li div img{
+    border-width: 4px;
+    border-radius: 50px;
+    width: 50px;
+    margin: 7px;
+}
+
+.view{
+    float: right;
+    margin-right: 20px;
+}
+
+.view li{
+    display: inline-block;
+    line-height: 80 px;
+    width: auto;
+}
+
+.view li a{
+    font-family: "Bahnschrift SemiBold";
+    color:rgb(207, 196, 196);
+    display: block;
+    padding: 20px 25px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.view li:hover a{
+    font-family: "Bahnschrift SemiBold";
+    color:rgb(207, 196, 196);
+    display: block;
+    padding: 20px 25px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+
+.drop li{
+    display: block;
+    width: 150px;
+}
+
+.drop{
+    width: 100%;
+    background: black;
+    position: absolute;
+    display: none;
+    padding:10px;
+    margin: 10px;
+}
+
+nav ul.view li:hover ul.drop{
+    display: block;
+    width: 150px;
+    border:solid;
+    border-width: 4px;
+    
+}
+
+.drop li a#drop_text{
+    text-decoration: none;
+}
+
+.drop li a#drop_text:hover{
+    text-decoration: underline;
+}
+
+.drop li a#drop_text1{
+    text-decoration: none;
+}
+
+.drop li a#drop_text1:hover{
+    text-decoration: underline;
+}
+
+.drop li a#drop_text2{
+    text-decoration: none;
+}
+
+.drop li a#drop_text2:hover{
+    text-decoration: underline;
+}
+
+.drop li a#drop_text3{
+    text-decoration: none;
+}
+
+.drop li a#drop_text3:hover{
+    text-decoration: underline;
+}
+
+.drop li a#drop_text4{
+    text-decoration: none;
+}
+
+.drop li a#drop_text4:hover{
+    text-decoration: underline;
+}
+
+.drop li a#drop_text5{
+    text-decoration: none;
+}
+
+.drop li a#drop_text5:hover{
+    text-decoration: underline;
+}
+
+.drop li a#drop_text6{
+    text-decoration: none;
+}
+
+.drop li a#drop_text6:hover{
+    text-decoration: underline;
+}
+
+.drop li a#drop_text7{
+    text-decoration: none;
+}
+
+.drop li a#drop_text7:hover{
+    text-decoration: underline;
+}
+
+a#sub_sub_text{
+    text-decoration: none;
+}
+
+a#sub_sub_text:hover{
+    text-decoration: underline;
+}
+
+a#sub_sub_text1{
+    text-decoration: none;
+}
+
+a#sub_sub_text1:hover{
+    text-decoration: underline;
+}
+
+a#sub_sub_text2{
+    text-decoration: none;
+}
+
+a#sub_sub_text2:hover{
+    text-decoration: underline;
+}
+
+a#sub_sub_text3{
+    text-decoration: none;
+}
+
+a#sub_sub_text3:hover{
+    text-decoration: underline;
+}
+
+a#sub_sub_text4{
+    text-decoration: none;
+}
+
+a#sub_sub_text4:hover{
+    text-decoration: underline;
+}
+
+a#sub_sub_text5{
+    text-decoration: none;
+}
+
+a#sub_sub_text5:hover{
+    text-decoration: underline;
+}
+
+a#sub_sub_text6{
+    text-decoration: none;
+}
+
+a#sub_sub_text6:hover{
+    text-decoration: underline;
+}
+
+a#sub_sub_text7{
+    text-decoration: none;
+}
+
+a#sub_sub_text7:hover{
+    text-decoration: underline;
+}
+
+a#sub_sub_text8{
+    text-decoration: none;
+}
+
+a#sub_sub_text8:hover{
+    text-decoration: underline;
+}
+
+a#sub_sub_text9{
+    text-decoration: none;
+}
+
+a#sub_sub_text9:hover{
+    text-decoration: underline;
+}
+
+a#sub_sub_text10{
+    text-decoration: none;
+}
+
+a#sub_sub_text10:hover{
+    text-decoration: underline;
+}
+
+a#sub_sub_text11{
+    text-decoration: none;
+}
+
+a#sub_sub_text11:hover{
+    text-decoration: underline;
+}
+
+
+a#sub_sub_text12{
+    text-decoration: none;
+}
+
+a#sub_sub_text12:hover{
+    text-decoration: underline;
+}
+
+a#sub_sub_text13{
+    text-decoration: none;
+}
+
+a#sub_sub_text13:hover{
+    text-decoration: underline;
+}
+
+a#sub_sub_text14{
+    text-decoration: none;
+}
+
+a#sub_sub_text14:hover{
+    text-decoration: underline;
+}
+
+a#sub_sub_text15{
+    text-decoration: none;
+}
+
+a#sub_sub_text15:hover{
+    text-decoration: underline;
+}
+
+a#sub_sub_text16{
+    text-decoration: none;
+}
+
+a#sub_sub_text16:hover{
+    text-decoration: underline;
+}
+
+a#sub_sub_text17{
+    text-decoration: none;
+}
+
+a#sub_sub_text17:hover{
+    text-decoration: underline;
+}
+
+a#sub_sub_text18{
+    text-decoration: none;
+}
+
+a#sub_sub_text18:hover{
+    text-decoration: underline;
+}
+
+a#sub_sub_text19{
+    text-decoration: none;
+}
+
+a#sub_sub_text19:hover{
+    text-decoration: underline;
+}
+
+nav ul.view li:hover{
+    text-decoration: underline white;
+}
+
+.type{
+    width: 75%;
+    background: black;
+    position: absolute;
+    display: none; 
+    margin-left: -130px;
+    margin-top: -73px;
+
+}
+
+.sub:hover .type{
+    position: absolute;
+    margin-left: -130px;
+    margin-top: -73px;
+    display: block;
+    border:solid;
+    border-width: 4px;
+}
+
+.sub:hover .type ul li a{
+    margin-left: -50px;
+}
+
+.sub a#sub_text{
+    text-decoration: none;
+}
+
+.sub a#sub_text:hover{
+    text-decoration: underline;
+}
+
+.sub a#sub_text2{
+    text-decoration: none;
+}
+
+.sub a#sub_text2:hover{
+    text-decoration: underline;
+}
+
+.sub a#sub_text3{
+    text-decoration: none;
+}
+
+.sub a#sub_text3:hover{
+    text-decoration: underline;
+}
+
+.sub a#sub_text4{
+    text-decoration: none;
+}
+
+.sub a#sub_text4:hover{
+    text-decoration: underline;
+}
+
+.type li{
+    width: 50px;
+    border-bottom: none;
+}
+
+
+

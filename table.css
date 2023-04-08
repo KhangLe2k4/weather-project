@@ -1,0 +1,102 @@
+.head{
+    background-color:  rgb(162, 210, 255);
+
+}
+
+.head td{
+    color: white;
+    padding:10px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 200px;
+}
+
+.head td.table_num{
+    width: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color:black;
+    padding: 10px;
+}
+
+.head td.value{
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color:black;
+}
+
+.head td.date{
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color:black;
+}
+
+.head td.weather_type{
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color:black;
+}
+
+.head td.time{
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color:black;
+}
+
+.button{
+    margin-left: 41px;
+    margin-bottom: 4px;
+}
+
+.button button{
+    font-family: "Bahnschrift SemiBold";
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    padding: 9px;
+    font-size: 15px;
+}
+
+.button button:active{
+    box-shadow: 4px 4px rgb(192, 180, 180);
+}
+
+.container{
+    padding: 20px 100px 0px 20px;
+    width: 1200px;
+    overflow: hidden;
+}
+
+.container table{
+    width: 500px;
+    float:left;
+   
+    margin-right: 10px;
+}
+
+.container .tempeChart{
+    width: 600px;
+    float:left;
+}
+
+.row td{
+    background-color: rgba(141, 153, 174, 0.7);
+    text-align: center;
+    padding:10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600px;
+}
+
+
+
+
+
+
+
